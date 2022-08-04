@@ -4,6 +4,8 @@ Built with [next.js](https://nextjs.org/), [tailwind](https://tailwindcss.com/)
 
 To start, clone the repo and run
 
-`npm install`
+```bash
+npm install
 
-`npm run build`
+npm run build
+```
