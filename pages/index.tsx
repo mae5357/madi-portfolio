@@ -5,7 +5,7 @@ import { Layout } from "../layouts/Layout";
 const Home = () => {
   return (
     <Layout>
-      <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-base-light">
+      <div className="flex min-h-screen flex-col items-center justify-center py-2">
         <Head>
           <title>Madison Ebersole</title>
           <link rel="icon" href="/favicon.ico" />
