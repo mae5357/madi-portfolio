@@ -10,7 +10,6 @@ const Home = () => {
           <title>Madison Ebersole</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <main className="max-w-4xl mx-auto mt-16 antialiased">
           <About />
         </main>
