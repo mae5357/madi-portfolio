@@ -34,7 +34,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="text-[5px]"> s/o to laura for finishing the mcat:)</p>
       </div>
     </div>
   );
