@@ -24,6 +24,14 @@ const Footer = () => {
             >
               GitHub
             </a>
+            <a
+              href="mailto:madison.a.ebersole@gmail.com"
+              className={"transition-colors hover:text-base-peach"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Email
+            </a>
           </div>
         </div>
       </div>
