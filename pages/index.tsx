@@ -1,5 +1,7 @@
 import Head from "next/head";
 import About from "../components/About";
+import Experience from "../components/Experience";
+import Footer from "../components/Footer";
 import { Layout } from "../layouts/Layout";
 
 const Home = () => {
@@ -11,8 +13,10 @@ const Home = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <main className="space-y-100 max-w-4xl mx-auto mt-16 antialiased">
           <About />
+          <Experience />
+          <Footer />
         </main>
       </div>
     </Layout>

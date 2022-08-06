@@ -5,7 +5,6 @@ export const Layout = ({ children }) => {
   return (
     <div className="bg-base-light">
       <main>{children}</main>
-      <Footer />
     </div>
   );
 };
