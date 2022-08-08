@@ -4,8 +4,8 @@ import profile from "../public/profile.jpg";
 
 const About = () => {
   return (
-    <div className="container px-4 mx min-h-screen item-center">
-      <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4">
+    <div className="container px-4 mx min-h-screen item-center auto">
+      <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4  flex flex-col-reverse text-center lg:text-left">
         <div className="lg:px-4 lg:mt-12">
           <h1 className="text-5xl font-bold text-base-dark lg:text-5xl">
             Hi, I'm Madi.
