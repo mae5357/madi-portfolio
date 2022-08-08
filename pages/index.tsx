@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Experience from "../components/Experience";
 import { Layout } from "../layouts/Layout";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
 
         <main className="max-w-4xl mx-auto mt-16 antialiased">
           <About />
+          <Experience />
         </main>
       </div>
     </Layout>
