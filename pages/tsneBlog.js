@@ -1,10 +1,8 @@
 import Head from "next/head";
-import About from "../components/About";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects";
+import Tsne from "../components/tsne";
 import { Layout } from "../layouts/Layout";
 
-const Home = () => {
+const tsneBlog = () => {
   return (
     <Layout>
       <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -14,13 +12,11 @@ const Home = () => {
         </Head>
 
         <main className="max-w-4xl mx-auto antialiased">
-          <About />
-          <Experience />
-          <Projects />
+          <Tsne />
         </main>
       </div>
     </Layout>
   );
 };
 
-export default Home;
+export default tsneBlog;
