@@ -20,7 +20,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/mae5357/madi-portfolio"
+              href="https://github.com/mae5357/"
               className={"transition-colors hover:text-base-peach"}
               target="_blank"
               rel="noreferrer"
