@@ -9,7 +9,7 @@ const Projects = () => {
           Cancer Cell Sample Visualization using T-SNE
         </p>
         <a
-          href="https://pe.gatech.edu/degrees/analytics"
+          href="https://github.com/mae5357/notebooks/blob/main/notebooks/cancer-tsne.ipynb"
           className="font-light text-base-light-dark transition-colors hover:text-base-peach"
         >
           I wanted to explore the mechanics behind the dimentionality reduction
