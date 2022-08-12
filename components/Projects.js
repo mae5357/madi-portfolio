@@ -15,7 +15,7 @@ const Projects = () => {
           I wanted to explore the mechanics behind the dimentionality reduction
           tool “t-SNE”. To demonstrate through a real-life example, I used the
           NKI Breast Cancer dataset which contains 273 samples of over 1000 gene
-          attributes. I was able to use t-SNE to plot these samples in 2D.{" "}
+          attributes. I was able to use t-SNE to plot these samples in 2D.
         </a>
       </div>
       <div className=" text-left">
@@ -24,10 +24,10 @@ const Projects = () => {
           href="https://twitter.com/thesportchirp"
           className="font-light text-base-light-dark transition-colors hover:text-base-peach"
         >
-          I enjoy following the English Premier League, but I find it hard to
+          I enjoy following the English Premier League, but I found it hard to
           keep up with all the games. I created a simple feed that shows the
-          scores from the weekend, ordering the suprising results first. I then
-          made this data public in a twitter API.
+          scores from the weekend, ordering the suprising results first. Now,
+          I'm working to make this data public in a twitter API.
         </a>
       </div>
     </div>
