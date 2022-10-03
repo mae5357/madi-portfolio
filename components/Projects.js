@@ -5,6 +5,20 @@ const Projects = () => {
     <div className="flex-1 my-20 space-y-8 flex-col container px-10 mx auto text-xl">
       <p className=" text-left font-bold text-base-peach"> PROJECTS </p>
       <div className=" text-left">
+        <p className="font-bold text-base-dark">Sentiment Analysis using NLP</p>
+        <a
+          href="https://github.com/mae5357/nlp-twitter-sentiment"
+          className="font-light text-base-light-dark transition-colors hover:text-base-peach"
+        >
+          I have enjoyed learning more about NLP and how it can be used and
+          productized in the real world. I found a toy dataset of tweets about
+          natrual disasters that was labeled. This dataset lends itself well to
+          sentiment analysis, but also text clustering and topic modeling (LDA).
+          I have been able to also explore a few NLP packages such as NLTK,
+          gensim, and Hugging Face.
+        </a>
+      </div>
+      <div className=" text-left">
         <p className="font-bold text-base-dark">
           Cancer Cell Sample Visualization using T-SNE
         </p>
