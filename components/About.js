@@ -6,7 +6,9 @@ const About = () => {
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-lg">
-          I am a full-stack developer with experience in modern web technologies. I enjoy creating efficient and scalable web applications.
+          transforming data into impactful solutions.
+
+          sitting at the intersection of data eng. and machine learning.
         </p>
       </div>
     </section>

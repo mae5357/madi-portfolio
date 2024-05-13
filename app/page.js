@@ -1,17 +1,17 @@
+import Image from "next/image";
+
 import Header from '../components/Header';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 
-const Page = () => {
+export default function Home() {
   return (
-    <div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Header />
       <About />
       <Projects />
       <Footer />
-    </div>
+    </main>
   );
 }
-
-export default Page;
