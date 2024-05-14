@@ -1,12 +1,14 @@
+'use client'
+
 import React from 'react';
 import './Header.css';
+import Carousel from './Carousel';
 
 function Header() {
   return (
     <header className="Header">
       <h1>Madison Ebersole</h1>
-        <p>NLP Data Engineer</p>
-        <p>transforming data into impactful solutions</p>
+      <Carousel />
     </header>
   );
 }
