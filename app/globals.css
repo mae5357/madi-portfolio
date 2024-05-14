@@ -1,0 +1,36 @@
+:root {
+    --dark: #1C1C1C;
+    --platinum: #DADDD8;
+    --alabaster: #ECEBE4;
+    --white: #EEF0F2;
+    --cool: #9A9AC1;
+}
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: var(--alabaster);
+    background-color: var(--dark);
+  }
+
+  
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+    color: #9A9AC1;
+  }
